@@ -3,4 +3,11 @@ body {
 
 }
 body a { color: gray}
-#test1 {color: white}
+#test1 {
+    color: white;
+
+}
+.container-fluid p,h1 {
+    color: white;
+    text-align: center;
+}
