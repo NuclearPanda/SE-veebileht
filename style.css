@@ -15,4 +15,5 @@ body a { color: gray}
 .container-fluid ul {
     align: center;
     color: white;
+    font-size: 20pt;
 }
