@@ -3,11 +3,16 @@ body {
 
 }
 body a { color: gray}
-#test1 {
+#page-header {
     color: white;
 
 }
 .container-fluid p,h1 {
     color: white;
     text-align: center;
+}
+
+.container-fluid ul {
+    align: center;
+    color: white;
 }
