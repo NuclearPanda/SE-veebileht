@@ -12,7 +12,7 @@ body a { color: gray}
     text-align: center;
 }
 
-.container-fluid ul {
+.container-fluid #about-list {
     align: center;
     color: white;
     font-size: 20pt;
