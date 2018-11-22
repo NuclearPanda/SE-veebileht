@@ -1,4 +1,6 @@
 body {
     background-image: url(./img/background.jpg);
+
 }
+body a { color: gray}
 #test1 {color: white}
