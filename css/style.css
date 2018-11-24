@@ -17,3 +17,11 @@ body a { color: gray}
     color: white;
     font-size: 20pt;
 }
+
+.container-fluid .content {
+    color: white;
+    text-align: left;
+    padding: 50px;
+    font-size: 16pt;
+    font-family: Monospaced;
+}
