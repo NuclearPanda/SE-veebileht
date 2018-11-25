@@ -10,6 +10,8 @@ body a { color: gray}
 .container-fluid p,h1 {
     color: white;
     text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 .container-fluid #about-list {
