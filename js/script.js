@@ -34,7 +34,6 @@ function findTable() {
 }
 
 function buildTable(table, data) {
-    data = data.slice(0, 10);
     console.log(data);
     for (let i = 0; i < data.length; i++) {
         let commit = data[i]["commit"];
