@@ -1,7 +1,7 @@
 
 function getCommitCount() {
-    var responseObj = JSON.parse(this.responseText);
-    for (var i in responseObj) {
+    const responseObj = JSON.parse(this.responseText);
+    for (const i in responseObj) {
         try {
             if (responseObj[i].login === 'NuclearPanda') {
                 document.getElementById(responseObj[i].login).innerHTML = responseObj[i].contributions;
@@ -49,7 +49,7 @@ function buildTable(table, data) {
 
 findTable();
 
-var request = new XMLHttpRequest();
+let request = new XMLHttpRequest();
 request.onload = getCommitCount;
 // Initialize a request
 request.open('get', 'https://api.github.com/repos/NuclearPanda/SE-veebileht/contributors');
