@@ -2,6 +2,13 @@ body {
     background-image: url(../img/background.jpg);
 
 }
+
+table {
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+}
+
 body a { color: gray}
 #page-header {
     color: white;
