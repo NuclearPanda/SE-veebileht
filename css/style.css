@@ -18,6 +18,11 @@ body a { color: gray}
     text-align: center;
 }
 
+.container-fluid #subheader {
+    color: white;
+    text-align: center;
+    padding: 5%
+}
 .container-fluid #about-list {
     align: center;
     color: white;
@@ -42,4 +47,3 @@ body a { color: gray}
     font-size: 16pt;
     font-family: "Nirmala UI";
 }
-
