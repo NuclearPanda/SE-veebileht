@@ -63,7 +63,3 @@ p .link:hover {
     color: white;
     background-color: transparent;
 }
-p .link:visited {
-    color: gray;
-    background-color: transparent;
-}
