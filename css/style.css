@@ -48,12 +48,22 @@ body a { color: gray}
     font-size: 16pt;
     font-family: "Nirmala UI";
 }
-
+.container-fluid .index-content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 16pt;
+    font-family: "Nirmala UI";
+}
 p .link {
 color: white;
 }
 
 p .link:hover {
     color: white;
+    background-color: transparent;
+}
+p .link:visited {
+    color: gray;
     background-color: transparent;
 }
