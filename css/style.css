@@ -9,6 +9,7 @@ table {
 }
 
 body a { color: gray}
+
 #page-header {
     color: white;
 
@@ -46,4 +47,7 @@ body a { color: gray}
     padding: 50px;
     font-size: 16pt;
     font-family: "Nirmala UI";
+}
+.container-fluid .content a{
+    color: white;
 }
