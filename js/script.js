@@ -16,7 +16,6 @@ function getCommitCount() {
         }
     }
 
-    //console.log(responseObj[0].login + " has " + responseObj[0].contributions + " commits!");
 }
 
 function findTable() {
@@ -34,7 +33,6 @@ function findTable() {
 }
 
 function buildTable(table, data) {
-    console.log(data);
     for (let i = 0; i < data.length; i++) {
         let commit = data[i]["commit"];
         let row = table.insertRow(i + 1);
